@@ -4,13 +4,11 @@ from random import choice
 my_font = "American Typewriter"
 
 def choose_name():
-    # print(button.bg)
     first_name = ["Anatol", "Daniel", "Woody", "Tiberius", "Smokey", "Carmen", "James",
                   "Hirni", "Beißer"]
     second_name = ["Schielauge", "Mysterioso", "Irrgartenläufer", "Katzenauge", "Dunkelmüller",
                    "Hühnerbrust", "Panzerknacker", "Hornochse", "👻💀☠️👽🤖👻"]
     spy_name = choice(first_name) + " " + choice(second_name)
-    # print(spy_name)
     name.value = spy_name
 
 app = App(title = "For Your Eyes Only", bg = (235, 215, 182), height = 180, width = 640)
